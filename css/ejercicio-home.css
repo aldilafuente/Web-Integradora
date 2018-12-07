@@ -1,50 +1,137 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Noto Sans', sans-serif;
-}
+ /* 
+ 
+ .imagen img {width: 10%;}
 
-.header, .footer {
-    background: rgb(29, 29, 29);
-    color: #e44d26;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 30px 10px 30px;
-    box-sizing: border-box;
-}
+ .sociales img {width: 7%;}
 
-.logo { 
-    width: 50px;
-    height: 50px;
-}
+ .sociales {display: flex;} */
 
-.logo img { width: 100%; }
+ html, body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Noto Sans', sans-serif;
+ }
 
-.navbar a {
-    text-decoration: none;
-    color: #e44d26;
-    margin: 10px;
-}
+ .header, .footer {
+     background: rgb(29, 29, 29);
+     color: #e44d26;
+     width: 100%; 
+     display: flex; 
+     justify-content: space-between; 
+     align-items: center;
+     padding: 10px 30px 10px 30px; 
+     box-sizing: border-box;
+ }
 
-.banner {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+ .logo {
+     width: 50px; 
+     height: 50px;
+ }
 
-.que-somos {
-    width: 100%;
-    height: 15%;
-    background: gainsboro;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+ .navbar a {
+     text-decoration: none; 
+     color: #e44d26; 
+     margin: 10px;
+ }
 
-.imagen img {
-    width: 5% ;
-}
+ .banner {
+     width: 80%;
+     max-width: 800px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 30px;
+     margin-bottom: 30px;
+ }
+
+ .empresa {
+     background: gainsboro;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 30px;
+ }
+
+ .sociales { display: flex; }
+
+ .logo-tag {
+     width: 65px;
+     height: 65px;
+ } 
+
+ .sociales img {
+     width: 25px;
+     height: 25px;
+     margin-left: 20px;
+ }
+ 
+ .logo-tag img {
+     width: 100%;
+     height: auto;
+ }
+
+ .texto {
+     max-width: 800px;
+     text-align: left;
+ }
+
+ .titulo {
+     color: #E44D26;
+     font-size: 30px;
+     margin-top: 10px;
+ }
+
+ .nosotras {
+     display: flex;
+     justify-content: space-between;
+     padding: 40px;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .persona {
+     display: flex;
+     align-items: center;
+ }
+
+ .persona .nombre-y-puesto {
+     margin-left: 70px;
+     text-align: center;
+     color: #E44D26;
+ }
+ 
+ .persona .avatar {
+     width: 150px;
+     height: 150px;
+ }
+ 
+ .avatar img {
+     width: 100%;
+     height: auto;
+ }
+
+ .persona .nombre { font-weight: bold; }
+
+ .contacto {
+     display: flex;
+     align-items: center;
+ }
+
+ .contacto img {
+     width: 25px;
+     height: 25px;
+     margin-right: 25px;
+ }
+ 
+ .redes img {
+     width: 25px;
+     height: 25px;
+     margin-left: 15px;
+ }
+
+
+
+
+
+
+
