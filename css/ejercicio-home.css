@@ -1,12 +1,4 @@
- /* 
- 
- .imagen img {width: 10%;}
-
- .sociales img {width: 7%;}
-
- .sociales {display: flex;} */
-
- html, body {
+html, body {
      margin: 0;
      padding: 0;
      font-family: 'Neuton', serif;
@@ -40,7 +32,7 @@
  }
 
  .banner {
-     width: 80%;
+     /*width: 80%;*/
      max-width: 800px;
      margin-left: auto;
      margin-right: auto;
@@ -49,7 +41,7 @@
  }
 
  .empresa {
-     background: gainsboro;
+     background: #f1f1f1;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -67,8 +59,8 @@
  } 
 
  .sociales img {
-     width: 25px;
-     height: 25px;
+     width: 30px;
+     height: 30px;
      margin-left: 20px;
  }
  
@@ -90,8 +82,8 @@
 
  .nosotras {
      display: flex;
-     justify-content: space-between;
-     padding: 40px;
+     justify-content: space-around;
+     padding: 30px;
      width: 90%;
      margin-left: auto;
      margin-right: auto;
@@ -140,6 +132,21 @@
      width: 25px;
      height: 25px;
      margin-left: 15px;
+ }
+
+
+ /*** RESPONSIVE PARA IPHONE ***/
+
+ @media only screen and (max-width: 480px) {
+     .banner {
+         width: 100%;
+     }
+
+     .logo-tag, .sociales {
+         display: none;
+     }
+
+
  }
 
 

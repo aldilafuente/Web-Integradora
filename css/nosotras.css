@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Neuton', serif;
+}
+
+.header, .footer {
+    background: rgb(29, 29, 29);
+    color: #e44d26;
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 30px 10px 30px; 
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 50px; 
+    height: 50px;
+}
+
+.navbar a {
+    text-decoration: none; 
+    color: #e44d26; 
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+.navbar a:hover {
+    color:	#863C2B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contacto {
+    display: flex;
+    align-items: center;
+}
+
+.contacto img {
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+}
+
+.redes img {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
